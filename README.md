@@ -16,6 +16,12 @@ By the end of this, developers should be able to:
 -   Configure the Ember Router to point to a new Template.
 -   Use the `{{#link-to}}` helper to route from one view-state to another.
 
+## Preparation
+
+1.  [Fork and clone](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone)
+    this repository.
+1.  Install dependencies with `npm install` and `bower install`.
+
 ## Routing to Templates
 Fork and clone this repo, and run `npm install && bower install`; then run `ember serve` to launch this application, and open your browser to `http://localhost:4200`.
 
