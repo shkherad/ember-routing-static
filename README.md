@@ -189,3 +189,8 @@ Change the 'contact' template to load one of two nested templates: 'boston' and 
 
 ## Additional Resources
 - [Ember Guides](http://guides.emberjs.com/v2.2.0/routing/)
+
+## [License](LICENSE)
+
+Source code distributed under the MIT license. Text and other assets copyright
+General Assembly, Inc., all rights reserved.
