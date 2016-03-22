@@ -24,7 +24,7 @@ Fork and clone this repo, and run `npm install && bower install`; then run `embe
 
 When you do, you should see a page that looks like this:
 
-!['application' View](./readme-assets/application.png)
+!['application' View](https://cloud.githubusercontent.com/assets/388761/13950977/80dd0174-f004-11e5-900a-255e97ec4da1.png)
 
 As you may recall from the Overview lesson, the content for this default View, 'application', is determined by `app/application/template.hbs`. Let's look inside that file for a moment.
 
@@ -54,14 +54,14 @@ Router.map(function() {
 
 Having made this change, if we navigate to `http://localhost:4200/about` we should see the following.
 
-!['about' View](./readme-assets/about.png)
+!['about' View](https://cloud.githubusercontent.com/assets/388761/13951020/b5f539da-f004-11e5-8a1a-c08a2927036f.png)
 
 ** WAIT!! Don't we need a Route, Controller, View, etc in order to be able to show that 'about' View? **
 Yes, we do! However, this is an example of Ember making things simpler for us. By default, _defining a new route in the Router will create all of the other objects for you_, and as a result, _the only time when you actually create any of those objects (by making your own files) is when you want to override the defaults_. It's amazing, and it lets you move very quickly when developing an Ember application.
 
 In this case, although we've only explicitly defined the Template, all of the other objects have been created in the background. This is easily verified using the Ember Inspector.
 
-!['about' View, inspected](./readme-assets/about-inspected.png)
+!['about' View, inspected](https://cloud.githubusercontent.com/assets/388761/13951032/cb29d842-f004-11e5-8ca6-79c35793bb4b.png)
 
 As you can see, even though we didn't create them, there exist a Route, a Controller, and a View that are tied in to the template we've just created.
 
