@@ -8,14 +8,13 @@
 -   [ga-wdi-boston/ember-inspector](https://github.com/ga-wdi-boston/ember-inspector)
 -   [ga-wdi-boston/ember-object](https://github.com/ga-wdi-boston/ember-object)
 
-### Objectives
-By the end of this lesson, students should be able to:
+## Objectives
 
-- Create a new Template using `ember g`.
-- Configure the Ember Router to point to a new Template.
-- Use the `{{#link-to}}` helper to link from one Template to another Template.
-- Create nested Views and route to them appropriately.
-- Set up an 'index' Template.
+By the end of this, developers should be able to:
+
+-   Create new Routes and Templates with generators.
+-   Configure the Ember Router to point to a new Template.
+-   Use the `{{#link-to}}` helper to route from one view-state to another.
 
 ## Routing to Templates
 Fork and clone this repo, and run `npm install && bower install`; then run `ember serve` to launch this application, and open your browser to `http://localhost:4200`.
