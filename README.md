@@ -2,13 +2,11 @@
 
 # Ember Static Routing
 
-## Lesson Details
-### Foundations
-At this point, students have already learned how to:
+## Prerequisites
 
-- Generate a new Ember application using `ember new`
-- Configure an Ember application to use Ember 2 (instead of Ember 1) and a pod structure for files.
-- Name and describe the different parts of an Ember application.
+-   [ga-wdi-boston/ember](https://github.com/ga-wdi-boston/ember)
+-   [ga-wdi-boston/ember-inspector](https://github.com/ga-wdi-boston/ember-inspector)
+-   [ga-wdi-boston/ember-object](https://github.com/ga-wdi-boston/ember-object)
 
 ### Objectives
 By the end of this lesson, students should be able to:
