@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'ember-template',
+    modulePrefix: 'ember-routing-static',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
